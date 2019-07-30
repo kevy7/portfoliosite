@@ -3,7 +3,13 @@ import React from "react";
 const Project = () => {
     return (
         <div className="projectComponent">
-            <p>Individual Project will be displayed here</p>
+            {/* 
+                Screenshot of project here 
+                Name of Project
+                Link to project website
+                Link to code
+            */}
+
         </div>
     )
 }
