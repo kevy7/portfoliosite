@@ -1,6 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Header from "./header/header";
 
 function App() {
   return (
@@ -8,6 +7,7 @@ function App() {
       <p>
         This is going to be the main body of our app
       </p>
+      <Header />
     </div>
   );
 }
