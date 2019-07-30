@@ -1,0 +1,10 @@
+.homeNavBar {
+    list-style: none;
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.homeNavBar > li {
+    margin-right: 15px;
+}

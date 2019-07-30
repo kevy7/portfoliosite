@@ -9,8 +9,18 @@ const Header = () => {
                 Kevin Yang
             </div>
             <ul className="breadcrumb">
-                <li><i class="fab fa-linkedin"></i></li>
-                <li><i class="fab fa-github-alt"></i></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/kevin-yang-615763122/">
+                        <i class="fab fa-linkedin">
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/kevy7">
+                        <i class="fab fa-github-alt">
+                        </i>
+                    </a>
+                </li>
                 <li><i class="fas fa-envelope"></i></li>
             </ul>
         </div>
