@@ -1,0 +1,29 @@
+.projectComponent {
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.projectImage {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+.projectTitle{
+    text-align: center;
+}
+
+.projectList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.projectList > li {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}

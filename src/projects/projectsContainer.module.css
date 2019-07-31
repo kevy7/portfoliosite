@@ -1,0 +1,14 @@
+.projectsContainer {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.projectContainerList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.projectTitle {
+    text-align: center;
+}
