@@ -3,16 +3,25 @@ import Header from "./header/header";
 import NavBar from "./navBar/navBar";
 import ProjectsContainer from "./projects/projectsContainer";
 import AboutMe from "./aboutMe/aboutMe";
+import Skills from "./skills/skills";
+import Contact from "./contactComponent/contact";
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <Header />
-      {/* Need to wrap the following components below to a container */}
+
+      
       <ProjectsContainer />
       <hr />
       <AboutMe />
+      <hr />
+      <Skills />
+      <hr />
+      <Contact />
+
+
       {/* 
         About Me 
         Skills

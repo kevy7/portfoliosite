@@ -8,6 +8,9 @@ const Header = () => {
             <div className="headerTitle">
                 Kevin Yang
             </div>
+            <div className="headerSubTitle">
+                Web Developer
+            </div>
             <ul className="breadcrumb">
                 <li>
                     <a href="https://www.linkedin.com/in/kevin-yang-615763122/">
