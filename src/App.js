@@ -5,6 +5,7 @@ import ProjectsContainer from "./projects/projectsContainer";
 import AboutMe from "./aboutMe/aboutMe";
 import Skills from "./skills/skills";
 import Contact from "./contactComponent/contact";
+import styles from "./app.module.css";
 
 function App() {
   return (
@@ -12,16 +13,15 @@ function App() {
       <NavBar />
       <Header />
 
-      
-      <ProjectsContainer />
-      <hr />
-      <AboutMe />
-      <hr />
-      <Skills />
-      <hr />
-      <Contact />
-
-
+      <div className={styles.container}>
+        <ProjectsContainer />
+        <hr />
+        <AboutMe />
+        <hr />
+        <Skills />
+        <hr />
+        <Contact />
+      </div>
       {/* 
         About Me 
         Skills
