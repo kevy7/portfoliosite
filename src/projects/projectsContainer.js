@@ -5,7 +5,7 @@ import styles from "./projectsContainer.module.css";
 //create a project component, this container will display all of your project components
 const ProjectsContainer = () => {
     return (
-        <div className={styles.projectsContainer}>
+        <div className="projectContainer">
             <h1 className={styles.projectTitle}>My Projects</h1>
             <div className={styles.projectContainerList}>
                 <Project
@@ -14,9 +14,9 @@ const ProjectsContainer = () => {
                     projectLink=""
                     projectCode=""
                 />
-                {/* <Project />
+                 {/* <Project />
                 <Project />
-                <Project /> */}
+                <Project />*/}
             </div>
         </div>
     )

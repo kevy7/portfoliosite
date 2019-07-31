@@ -11,6 +11,7 @@ function App() {
       <Header />
       {/* Need to wrap the following components below to a container */}
       <ProjectsContainer />
+      <hr />
       <AboutMe />
       {/* 
         About Me 
