@@ -5,7 +5,11 @@ const Contact = () => {
     return (
         <div className={styles.contactComponent}>
             <h1 className={styles.title}>Contact Me</h1>
-            <p>This is my contact component</p>
+            <form action="https://formspree.io/email@domain.tld" method="POST">
+                <input type="text" />
+            </form>
+
+
         </div>
     )
 }
