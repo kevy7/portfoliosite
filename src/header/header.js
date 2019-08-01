@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./header.css";
+import styles from "./header.module.css";
 
 //This is a functional component
 const Header = () => {
@@ -13,18 +14,18 @@ const Header = () => {
             </div>
             <ul className="breadcrumb">
                 <li>
-                    <a href="https://www.linkedin.com/in/kevin-yang-615763122/">
-                        <i class="fab fa-linkedin">
+                    <a className={styles.icon} href="https://www.linkedin.com/in/kevin-yang-615763122/">
+                        <i className="fab fa-linkedin">
                         </i>
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/kevy7">
-                        <i class="fab fa-github-alt">
+                    <a  className={styles.icon} href="https://github.com/kevy7">
+                        <i className="fab fa-github-alt">
                         </i>
                     </a>
                 </li>
-                <li><i class="fas fa-envelope"></i></li>
+                <li><i className="fas fa-envelope"></i></li>
             </ul>
         </div>
     )

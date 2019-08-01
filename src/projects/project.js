@@ -17,9 +17,9 @@ const Project = (state) => {
             />
             <h2 className={styles.projectTitle}>{state.projectName}</h2>
             <ul className={styles.projectList}>
-                <li>Code</li>
+                <li><a href={state.projectCode}>Code</a></li>
                 <li> | </li>
-                <li>Website</li>
+                <li><a href={state.projectLink}>Website</a></li>
             </ul>
         </div>
     )
