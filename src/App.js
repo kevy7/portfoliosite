@@ -22,11 +22,7 @@ function App() {
         <hr />
         <Contact />
       </div>
-      {/* 
-        About Me 
-        Skills
-        Contact
-      */}
+      
     </div>
   );
 }
