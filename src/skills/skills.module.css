@@ -5,3 +5,14 @@
 .title {
     text-align: center;
 }
+
+.skillsList {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.skillsList > li {
+    font-size: 25px;
+}

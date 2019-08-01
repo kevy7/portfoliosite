@@ -5,7 +5,27 @@ const Skills = () => {
     return (
         <div className={styles.skillsComponent}>
             <h1 className={styles.title}>Skills</h1>
-            <p>This is the skills component</p>
+            
+            
+            <div >
+                <ul className={styles.skillsList}>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>C#</li>
+                    <li>ReactJS</li>
+                    <li>Redux</li>
+                    <li>Express</li>
+                    <li>MongoDB</li>
+                    <li>SQL</li>
+                    <li>NodeJS</li>
+                    <li>AJAX</li>
+                    <li>Git</li>
+                    <li>RESTful routes</li>
+                </ul>
+            </div>
+
+
         </div>
     )
 }
