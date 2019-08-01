@@ -22,7 +22,7 @@ const ProjectsContainer = () => {
                 />
                 <Project 
                     image="https://images.unsplash.com/photo-1528360983277-13d401cdc186?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-                    projectName="Instructor Training Database"
+                    projectName="Instructor Database"
                     projectLink=""
                     projectCode=""
                 />
