@@ -5,3 +5,37 @@
 .title {
     text-align: center;
 }
+
+.contactForm {
+    border: solid black .5px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.formComponent {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.formComponent > label {
+    text-align: center;
+}
+
+.sendComponent {
+    display: flex;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-end;
+}
+
+.sendButton {
+    
+}
+
