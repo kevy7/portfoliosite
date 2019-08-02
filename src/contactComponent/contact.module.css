@@ -36,6 +36,25 @@
 }
 
 .sendButton {
-    
+    height: 30px;
+    width: 70px;
+    border-radius: .1px;
+    color: white;
+    background: black;
+    font-size: inherit;
 }
 
+.userInputs {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    font-size: inherit;
+    padding: 5px;
+}
+
+.userMessage {
+    border-radius: 5px;
+    border: .5px solid gray;
+    font-size: inherit;
+    padding: 5px;
+}
