@@ -1,6 +1,7 @@
 {
   "name": "portfoliowebsite",
   "version": "0.1.0",
+  "homepage": "https://kevy7.github.io/portfoliosite/",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
