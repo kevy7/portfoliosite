@@ -1,15 +1,16 @@
 import React from "react";
-import "./navBar.css";
+import styles from "./navBar.module.css";
+//aboutMeRef
 
 const NavBar = () => {
     return (
-        <div className="navBar">
-            <ul className="homeNavBar">
-                <li>Main</li>
-                <li>Projects</li>
-                <li>About Me</li>
-                <li>Skills</li>
-                <li>Contact</li>
+        <div className={styles.navBar}>
+            <ul className={styles.homeNavBar}>
+                <li><a href="#mainRef">Main</a></li>
+                <li><a href="#projectsRef">Projects</a></li>
+                <li><a href="#aboutMeRef">About Me</a></li>
+                <li><a href="#skillsRef">Skills</a></li>
+                <li><a href="#contactRef">Contact</a></li>
             </ul>
         </div>
     )

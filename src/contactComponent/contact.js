@@ -3,7 +3,7 @@ import styles from "./contact.module.css";
 
 const Contact = () => {
     return (
-        <div className={styles.contactComponent}>
+        <div className={styles.contactComponent} id="contactRef">
 
             <form className={styles.contactForm} action="https://formspree.io/kvnyang503@gmail.com" method="POST">
                 <h1 className={styles.title}>Contact Me</h1>

@@ -5,11 +5,11 @@ import styles from "./header.module.css";
 //This is a functional component
 const Header = () => {
     return (
-        <div className="header">
-            <div className="headerTitle">
+        <div className="header" id="mainRef">
+            <div className={styles.headerTitle}>
                 Kevin Yang
             </div>
-            <div className="headerSubTitle">
+            <div className={styles.headerSubTitle}>
                 Web Developer
             </div>
             <ul className="breadcrumb">

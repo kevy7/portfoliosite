@@ -3,7 +3,7 @@ import styles from "./aboutMe.module.css";
 
 const AboutMe = () => {
     return (
-        <div className={styles.aboutMe}>
+        <div className={styles.aboutMe} id="aboutMeRef">
             <h1 className={styles.title}>About Me</h1>
             <p className={styles.aboutMeParagraph}>
                 Hi, my name is Kevin Yang and I'm a web developer with experience in html, css, javascript, and the React library. My journey into programming started when I was given my first programming project at my previous job at Oregon State University. I was assigned the task to create a windows form application that can pull and enter instructor training-related data into a Microsoft SQL database.

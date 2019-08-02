@@ -14,6 +14,7 @@
     width: 250px;
     height: 250px;
     border-radius: 50%;
+    border: black solid 1px;
 }
 
 .projectTitle{
@@ -33,4 +34,15 @@
     /* margin-left: 10px;
     margin-right: 10px; */
     text-align: center;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.projectList > li > a {
+    color: black;
+    text-decoration: none;
+}
+
+.technoList {
+    list-style: none;
 }

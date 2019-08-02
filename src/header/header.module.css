@@ -2,3 +2,15 @@
     color: white;
     size: 25px;
 }
+
+.headerTitle {
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+
+.headerSubTitle {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
