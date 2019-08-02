@@ -7,7 +7,6 @@
 }
 
 .contactForm {
-    border: solid black .5px;
     height: 500px;
     display: flex;
     flex-direction: column;
