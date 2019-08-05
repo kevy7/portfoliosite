@@ -21,7 +21,7 @@ const ProjectsContainer = () => {
                 <Project 
                     image={hnSearchCloneImage}
                     projectName="HN Search Clone"
-                    projectLink=""
+                    projectLink="https://kevy7.github.io/hnClone/"
                     projectCode="https://github.com/kevy7/hnClone"
                 />
                 <Project 
