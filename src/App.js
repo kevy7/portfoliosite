@@ -22,7 +22,7 @@ function App() {
         <hr />
         <Contact />
       </div>
-      
+       
     </div>
   );
 }

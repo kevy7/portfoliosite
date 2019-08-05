@@ -9,7 +9,7 @@ import hnSearchCloneImage from "../websiteImages/hnSearchClone.png";
 //create a project component, this container will display all of your project components
 const ProjectsContainer = () => {
     return (
-        <div className="projectContainer" id="projectsRef">
+        <div className={styles.projectsContainer} id="projectsRef">
             <h1 className={styles.projectTitle}>My Projects</h1>
             <div className={styles.projectContainerList}>
                 <Project
