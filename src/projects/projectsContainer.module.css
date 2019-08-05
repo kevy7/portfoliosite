@@ -1,3 +1,12 @@
+@keyframes titleTransition {
+    from {
+        text-align: left;
+    }
+    to {
+        text-align: center;
+    }
+}
+
 .projectsContainer {
 }
 

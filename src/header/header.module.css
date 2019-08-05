@@ -1,3 +1,14 @@
+@keyframes titleTransition {
+    from {
+        display: none;
+        color: black;
+    }
+    to {
+        display: inline;
+        color: white;
+    }
+}
+
 .icon {
     color: white;
     size: 25px;
