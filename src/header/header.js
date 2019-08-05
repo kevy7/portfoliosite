@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./header.css";
 import styles from "./header.module.css";
+import resume from "../documents/resume2019.pdf";
 
 //This is a functional component
 const Header = () => {
@@ -25,7 +26,17 @@ const Header = () => {
                         </i>
                     </a>
                 </li>
-                <li><i className="fas fa-envelope"></i></li>
+                <li>
+                    <a className={styles.icon} href="mailto:kvnyang503@gmail.com">
+                        <i className="fas fa-envelope">  
+                        </i>
+                    </a>
+                </li>
+                <li>
+                    <a className={styles.icon} href={resume} download>
+                        <i class="far fa-file"></i>
+                    </a>
+                </li>
             </ul>
         </div>
     )
