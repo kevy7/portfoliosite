@@ -30,3 +30,8 @@
     margin-right: 5px;
     margin-left: 5px;
 }
+
+
+.breadcrumb > li > a > i:hover {
+    transform: scale(1.5);
+}
