@@ -9,9 +9,11 @@
 
 .title {
     text-align: center;
+    position: relative;
 }
 
 .aboutMeParagraph {
     text-align: left;
     font-size: 25px;
+    position: relative;
 }

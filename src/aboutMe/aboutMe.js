@@ -1,7 +1,10 @@
 import React from "react";
 import styles from "./aboutMe.module.css";
+//import { TimelineMax } from "gsap/all"; 
 
 const AboutMe = () => {
+    //tl.to(element, 1, {x:100});
+
     return (
         <div className={styles.aboutMe} id="aboutMeRef">
             <h1 className={styles.title}>About Me</h1>
