@@ -35,3 +35,7 @@
 .breadcrumb > li > a > i:hover {
     transform: scale(1.5);
 }
+
+.testing {
+    color: white;
+}
