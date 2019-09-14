@@ -1,0 +1,13 @@
+.testStyling {
+    color: orange;
+    position: relative;
+}
+
+.animationTest {
+    height: 700px;
+}
+
+.headerTest {
+    position: absolute;
+    top: 60%;
+}
