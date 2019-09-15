@@ -1,15 +1,21 @@
 .aboutMeContainer {
     height: 100vh;
-    background: orange;
     width: 100%;
 }
 
-.testPara {
+.aboutMeHeader {
     position: relative;
     text-align: center;
+    padding-top: 150px;
 }
 
 .mainDiv {
     height: 100vh;
-    background: orange;
+}
+
+.aboutMeParagraph {
+    text-align: center;
+    position: relative;
+    text-align: left;
+    font-size: 25px;
 }
