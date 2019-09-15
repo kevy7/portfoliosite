@@ -1,13 +1,15 @@
-.testStyling {
-    color: orange;
+.aboutMeContainer {
+    height: 100vh;
+    background: orange;
+    width: 100%;
+}
+
+.testPara {
     position: relative;
+    text-align: center;
 }
 
-.animationTest {
-    height: 700px;
-}
-
-.headerTest {
-    position: absolute;
-    top: 60%;
+.mainDiv {
+    height: 100vh;
+    background: orange;
 }

@@ -8,35 +8,27 @@ import Header from '../header/header';
 
 const animationTest = () => {
     return (
-        <div className = "{styles.animationTest}">
-            <p className="para">This component is mainly used to test out animations</p>
+        <div className = "{styles.mainDiv}">
             <Controller>
                 <Scene 
-                    TriggerHook="onLeave"
+                    triggerHook="onLeave"
                     //triggerElement=".tester"
                     indicators={true}
-                    pin
+                    pin="#test"
                     duration={1000}
                 >
                     {
                         (progress) => (
-                            <div>
-                                <Timeline 
-                                totalProgress={progress} paused
-                                
-                                    target={
-                                        <div className={styles.headerTest}>This is the target</div>
-                                    }
-                                >
+                            <div className={styles.aboutMeContainer} id="test">
+                                <Timeline totalProgress={progress} paused>
                                     <Tween
-                                        from={{opacity: 0, top: '50px'}}
-                                        to={{opacity: 1, top: '0px' }}
-                                    />
-                                    <Tween 
-                                        to={{ x: '50px'}}
-                                    />
-                                    
+                                        from={{ top: '200px', opacity: 0}}
+                                        to={{ top: '10px', opacity: 1}}
+                                    >
+                                        <h1 className={styles.testPara}>About Me</h1>
+                                    </Tween>
 
+                                    
 
                                 </Timeline>
                             </div>
