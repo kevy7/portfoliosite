@@ -17,8 +17,6 @@ function App() {
       <div className={styles.container}>
         <ProjectsContainer />
         <hr />
-        <AboutMe />
-        <hr />
         <AnimationTest />
         <hr />
         <Skills />
