@@ -15,7 +15,7 @@ const animationTest = () => {
                     //triggerElement=".tester"
                     indicators={true}
                     pin="#test"
-                    duration={400}
+                    duration={1000}
                 >
                     {
                         (progress) => (
