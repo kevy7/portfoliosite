@@ -1,4 +1,8 @@
 import React from "react";
+import { Tween, Timeline} from 'react-gsap'; //used for animation
+import { Controller, Scene } from 'react-scrollmagic'; //used for scroll down effect
+import { Power0, Power2, Power3 } from 'gsap'; //used for easing animation
+
 import Project from "./project";
 import styles from "./projectsContainer.module.css";
 import eBubblesImage from "../websiteImages/eBubbles.png";

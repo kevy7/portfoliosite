@@ -1,10 +1,9 @@
 import React from 'react';
 import { Tween, Timeline} from 'react-gsap'; //used for animation
 import { Controller, Scene } from 'react-scrollmagic'; //used for scroll down effect
+import { Power0, Power2, Power3 } from 'gsap';
 
 import styles from './animationTest.module.css';
-import { Power0, Power2, Power3 } from 'gsap';
-import Header from '../header/header';
 
 const animationTest = () => {
     return (
@@ -13,7 +12,7 @@ const animationTest = () => {
                 <Scene 
                     triggerHook="onLeave"
                     //triggerElement=".tester"
-                    indicators={true}
+                    //indicators={true}
                     pin="#test"
                     duration={1000}
                 >
