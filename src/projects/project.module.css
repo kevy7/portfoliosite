@@ -54,17 +54,18 @@
 
 .overlay {
     height: 0%;
-    /* bottom: 100%; */
     left: 0;
     right: 0;
     position: relative;
     /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
-    background-color: #008CBA;
+    /* background-color: #008CBA; */
+    background: white;
     bottom: 100%;
     transition: .5s ease;
+    opacity: 0;
 }
 
 .projectContainer:hover .overlay {
-    height: 90%;
-    /* bottom: 0; */
+    height: 80%;
+    opacity: 1;
 }

@@ -21,6 +21,10 @@ const Project = (state) => {
             <div className={styles.overlay}>
                 <div className="text">
                     {/* Place text in here */}
+                    <h2>Technologies</h2>
+                    <ul>
+                        <li>Javascript</li>
+                    </ul>
                 </div>
             </div>
         </div>
