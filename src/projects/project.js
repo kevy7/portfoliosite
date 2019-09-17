@@ -3,31 +3,26 @@ import styles from "./project.module.css";
 
 const Project = (state) => {
     return (
-        <div className={styles.projectComponent}>
-            {/* 
-                Screenshot of project here 
-                Name of Project
-                Link to project website
-                Link to code
-            */}
+        <div className={styles.projectContainer}>
+            <div className={styles.projectComponent}>
+                
+                <img 
+                    className={styles.projectImage}
+                    src={state.image}
+                />
+                <h2 className={styles.projectTitle}>{state.projectName}</h2>
 
-            <img 
-                className={styles.projectImage}
-                src={state.image}
-            />
-            <h2 className={styles.projectTitle}>{state.projectName}</h2>
-
-            <ul className={styles.projectList}>
-                <li><a href={state.projectCode}>Code</a></li>
-                <li> | </li>
-                <li><a href={state.projectLink}>Website</a></li>
-            </ul>
-            {/* <div>
-                <h4>Technologies Used</h4>
-                <ul>
-                    <li>HTML</li>
+                <ul className={styles.projectList}>
+                    <li><a href={state.projectCode}>Code</a></li>
+                    <li> | </li>
+                    <li><a href={state.projectLink}>Website</a></li>
                 </ul>
-            </div> */}
+            </div>
+            <div className={styles.overlay}>
+                <div className="text">
+                    {/* Place text in here */}
+                </div>
+            </div>
         </div>
     )
 }

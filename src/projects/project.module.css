@@ -1,3 +1,7 @@
+.projectContainer {
+    height: 500px;
+}
+
 .projectComponent {
     /* padding-left: 60px;
     padding-right: 60px; */
@@ -14,7 +18,7 @@
     width: 500px;
     height: 300px;
     /*border-radius: 50%;*/
-    border: gray solid 1px;
+    /* border: gray solid 1px; */
     object-fit: cover;
 }
 
@@ -46,4 +50,21 @@
 
 .technoList {
     list-style: none;
+}
+
+.overlay {
+    height: 0%;
+    /* bottom: 100%; */
+    left: 0;
+    right: 0;
+    position: relative;
+    /* background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); */
+    background-color: #008CBA;
+    bottom: 100%;
+    transition: .5s ease;
+}
+
+.projectContainer:hover .overlay {
+    height: 90%;
+    /* bottom: 0; */
 }
