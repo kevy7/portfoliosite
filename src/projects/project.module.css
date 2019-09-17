@@ -11,10 +11,11 @@
 }
 
 .projectImage {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    border: black solid 1px;
+    width: 500px;
+    height: 300px;
+    /*border-radius: 50%;*/
+    border: gray solid 1px;
+    object-fit: cover;
 }
 
 .projectTitle{

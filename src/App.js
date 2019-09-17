@@ -14,15 +14,15 @@ function App() {
       <NavBar />
       <Header />
 
-      <div className={styles.container}>
+      {/* <div className={styles.container}> */}
         <ProjectsContainer />
-        <hr />
+        
         <AnimationTest />
         <hr />
         <Skills />
         <hr />
         <Contact />
-      </div>
+      {/* </div> */}
        
     </div>
   );
