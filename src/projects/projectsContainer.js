@@ -42,11 +42,6 @@ const ProjectsContainer = () => {
                     projectDescription="A color guessing game to show case what I learned from javascript."
                     projectTech={rgbGameTech}
                 />
-                {/* 
-                <Project />
-                <Project />
-                <Project />
-                */}
             </div>
         </div>
     )
