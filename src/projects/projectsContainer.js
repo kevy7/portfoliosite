@@ -6,6 +6,12 @@ import rgbGameImage from "../websiteImages/rgbGame.png";
 import hnSearchCloneImage from "../websiteImages/hnSearchClone.png";
 
 
+//array of tech used for each project
+const eBubblesTech = ['HTML', 'CSS', 'JAVASCRIPT', 'REACT', 'REDUX', 'NODEJS', 'EXPRESS', 'MONGODB', 'BULMA CSS'];
+const hnSearchTech = ['HTML', 'CSS', 'JAVASCRIPT', 'REACT'];
+const rgbGameTech = ['HTML', 'CSS', 'JAVASCRIPT'];
+
+
 //create a project component, this container will display all of your project components
 const ProjectsContainer = () => {
     return (
@@ -17,22 +23,30 @@ const ProjectsContainer = () => {
                     projectName="EventBubbles"
                     projectLink="https://eb2.herokuapp.com/"
                     projectCode="https://github.com/kevy7/eBubblesv2"
+                    projectDescription="A fullstack web app to create events and invite friends to join them!"
+                    projectTech={eBubblesTech}
                 />
                 <Project 
                     image={hnSearchCloneImage}
                     projectName="HN Search Clone"
                     projectLink="https://kevy7.github.io/hnClone/"
                     projectCode="https://github.com/kevy7/hnClone"
+                    projectDescription="A simple hacker news clone. This was created to test my understanding of APIs."
+                    projectTech={hnSearchTech}
                 />
                 <Project 
                     image={rgbGameImage}
                     projectName="JS Color Game"
                     projectLink="https://codepen.io/kevy7/full/wVqpmN"
                     projectCode="https://codepen.io/kevy7/pen/wVqpmN"
+                    projectDescription="A color guessing game to show case what I learned from javascript."
+                    projectTech={rgbGameTech}
                 />
-                 {/* <Project />
+                {/* 
                 <Project />
-                <Project />*/}
+                <Project />
+                <Project />
+                */}
             </div>
         </div>
     )

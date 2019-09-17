@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./project.module.css";
 
+import ProjectDescription from './projectDescription';
+
 const Project = (state) => {
     return (
         <div className={styles.projectContainer}>
@@ -19,13 +21,10 @@ const Project = (state) => {
                 </ul>
             </div>
             <div className={styles.overlay}>
-                <div className="text">
-                    {/* Place text in here */}
-                    <h2>Technologies</h2>
-                    <ul>
-                        <li>Javascript</li>
-                    </ul>
-                </div>
+                <ProjectDescription
+                    projectDescription={state.projectDescription}
+                    projectTech={state.projectTech}
+                />
             </div>
         </div>
     )

@@ -63,9 +63,11 @@
     bottom: 100%;
     transition: .5s ease;
     opacity: 0;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .projectContainer:hover .overlay {
-    height: 80%;
+    height: 70%;
     opacity: 1;
 }
