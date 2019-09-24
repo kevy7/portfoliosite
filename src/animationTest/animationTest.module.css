@@ -21,3 +21,13 @@
     text-align: left;
     font-size: 25px;
 }
+
+.chibiImage {
+    width: 300px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
