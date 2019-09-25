@@ -16,11 +16,8 @@ function App() {
 
       {/* <div className={styles.container}> */}
         <ProjectsContainer />
-        
         <AnimationTest />
-        <hr />
         <Skills />
-        <hr />
         <Contact />
       {/* </div> */}
        
