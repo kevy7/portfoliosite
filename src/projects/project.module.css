@@ -1,5 +1,7 @@
 .projectContainer {
     height: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .projectComponent {
