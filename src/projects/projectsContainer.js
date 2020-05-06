@@ -32,7 +32,7 @@ const ProjectsContainer = () => {
                 />
                 <Project 
                     image={hnSearchCloneImage}
-                    projectName="HN Search Clone"
+                    projectName="Pathfinding Visualization Grid"
                     projectLink="https://kevy7.github.io/hnClone/"
                     projectCode="https://github.com/kevy7/hnClone"
                     projectDescription="A simple hacker news clone. This was created to test my understanding of APIs."
