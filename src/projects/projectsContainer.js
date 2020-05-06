@@ -7,7 +7,8 @@ import Project from "./project";
 import styles from "./projectsContainer.module.css";
 import eBubblesImage from "../websiteImages/eBubbles.png";
 import rgbGameImage from "../websiteImages/rgbGame.png";
-import hnSearchCloneImage from "../websiteImages/hnSearchClone.png";
+//import hnSearchCloneImage from "../websiteImages/hnSearchClone.png";
+import pathfindingImage from "../websiteImages/pathfinding.png";
 
 
 //array of tech used for each project
@@ -31,11 +32,11 @@ const ProjectsContainer = () => {
                     projectTech={eBubblesTech}
                 />
                 <Project 
-                    image={hnSearchCloneImage}
+                    image={pathfindingImage}
                     projectName="Pathfinding Visualization App"
                     projectLink="https://kevy7.github.io/gridvisualizer/"
                     projectCode="https://github.com/kevy7/gridvisualizer"
-                    projectDescription="A simple hacker news clone. This was created to test my understanding of APIs."
+                    projectDescription="A grid visualization website used to animate various pathfinding or maze generation algorithms. Current algorithms implemented includes: Dijkstra, Breadth first search, Debth first search, Greedy BFS, A*, and recursive division."
                     projectTech={pathTech}
                 />
                 <Project 
