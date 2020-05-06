@@ -12,7 +12,7 @@ import hnSearchCloneImage from "../websiteImages/hnSearchClone.png";
 
 //array of tech used for each project
 const eBubblesTech = ['HTML', 'CSS', 'JAVASCRIPT', 'REACT', 'REDUX', 'NODEJS', 'EXPRESS', 'MONGODB', 'BULMA CSS'];
-const hnSearchTech = ['HTML', 'CSS', 'JAVASCRIPT', 'REACT'];
+const pathTech = ['HTML', 'CSS', 'JAVASCRIPT', 'REACT', 'REDUX'];
 const rgbGameTech = ['HTML', 'CSS', 'JAVASCRIPT'];
 
 
@@ -36,7 +36,7 @@ const ProjectsContainer = () => {
                     projectLink="https://kevy7.github.io/gridvisualizer/"
                     projectCode="https://github.com/kevy7/gridvisualizer"
                     projectDescription="A simple hacker news clone. This was created to test my understanding of APIs."
-                    projectTech={hnSearchTech}
+                    projectTech={pathTech}
                 />
                 <Project 
                     image={rgbGameImage}
