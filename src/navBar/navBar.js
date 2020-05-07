@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./navBar.module.css";
 //aboutMeRef
+//aboutMe reference needs to be fixed
 
 const NavBar = () => {
     return (
