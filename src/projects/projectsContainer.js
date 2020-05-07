@@ -7,7 +7,6 @@ import Project from "./project";
 import styles from "./projectsContainer.module.css";
 import eBubblesImage from "../websiteImages/eBubbles.png";
 import rgbGameImage from "../websiteImages/rgbGame.png";
-//import hnSearchCloneImage from "../websiteImages/hnSearchClone.png";
 import pathfindingImage from "../websiteImages/pathfinding.png";
 
 
