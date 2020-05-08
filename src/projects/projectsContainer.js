@@ -16,7 +16,6 @@ const pathTech = ['HTML', 'CSS', 'JAVASCRIPT', 'REACT', 'REDUX'];
 const rgbGameTech = ['HTML', 'CSS', 'JAVASCRIPT'];
 
 
-//create a project component, this container will display all of your project components
 const ProjectsContainer = () => {
     return (
         <div className={styles.projectsContainer} id="projectsRef">
