@@ -8,7 +8,7 @@ import chibiImage from '../images/ChibiKevin.jpg';
 
 const animationTest = () => {
     return (
-        <div className = "{styles.mainDiv}">
+        <div className = "{styles.mainDiv}" id="aboutMeRef">
             {/* <img src={chibiImage} className={styles.chibiImage} /> */}
             <Controller>
                 <Scene 
