@@ -58,13 +58,6 @@ const animationTest = () => {
                         )
                     }
 
-                    {
-                        /* (progress) => (
-                            <div className={styles.container}>
-
-                            </div>
-                        ) */
-                    }
 
                 </Scene>
 
